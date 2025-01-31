@@ -15,10 +15,10 @@ python src/main.py --config=qmix --env-config=gymma with env_args.time_limit=500
 ```
 
 
-To visualize results, run from the root folder, after selecting the required metric.
+To generate plots of results, run from the root folder, after selecting the required metric.
 
 ```shell
- python3 plot_results.py --path ./results/sacred/qmix/your-env-name --metric test_return_mean --save_dir ./plots
+ python3 plot_results.py --path ./results/sacred/qmix/your-env-name/folder number --metric test_return_mean --save_dir ./plots
 ```
 
 To render results, run from the root folder, after selecting the required model.
